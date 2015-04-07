@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Cmd_L + Space = KANA</name>
+		<identifier>private.oga1</identifier>
+		<autogen>
+	 		__KeyToKey__
+	 		KeyCode::SPACE, ModifierFlag::COMMAND_L |  ModifierFlag::NONE,
+	 		KeyCode::JIS_KANA
+		</autogen>
+	</item>
+	
+	<item>
+		<name>Shift_L + Space = EISUU</name>
+		<identifier>private.oga2</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::SPACE, ModifierFlag::SHIFT_L |  ModifierFlag::NONE,
+			KeyCode::JIS_EISUU
+		</autogen>
+	</item>
+	
+	<item>
+		<name>Control_L to Cmd_L</name>
+		<identifier>private.oga3</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::CONTROL_L,
+			KeyCode::COMMAND_L
+		</autogen>
+	</item>
+
+	<item>
+		<name>Cmd_L to Control_L</name>
+		<identifier>private.oga4</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::COMMAND_L,
+			KeyCode::CONTROL_L
+		</autogen>
+	</item>
+</root>
